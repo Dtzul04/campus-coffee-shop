@@ -52,7 +52,7 @@ Each person also submits their own role document in Word, with screenshots of th
 - `styles.css`: page styling
 
 ## How to Run
-Clone the repo and open `template.html` in a browser.
+Clone the repo and open `index.html` in a browser.
 
 ## Git Workflow
 - No direct commits to `main` after the starting files are in.
