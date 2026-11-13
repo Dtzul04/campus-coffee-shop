@@ -1,14 +1,157 @@
-/* Basic setup. Adriana's design goes here. */
+/* NAVBAR */
+body {
+    font-family: 'Merriweather', serif;
+}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-  }
+.logo,
+.navbar ul li a,
+.hero h1,
+.hero-buttons {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    background: #FEFBEA;
+    padding: 20px 0;
+    border-bottom: 1px solid #995900;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #4E312D;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #4E312D;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color: #995900;
+}
+
+/* HERO */
+.hero {
+    background: #4E312D;
+    color: #FEFBEA;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1,
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    color: #FEFBEA;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.buttons,
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttons button,
+.btn {
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.primary,
+.btn-primary {
+    background: #995900;
+    color: #FEFBEA;
+}
+
+.secondary,
+.btn-secondary {
+    background: #FEFBEA;
+    color: #4E312D;
+}
+
+.primary:hover,
+.btn-primary:hover {
+    background: #7A4700;
+}
+
+.secondary:hover,
+.btn-secondary:hover {
+    background: #EDE5D0;
+}
+
+.hero {
+    background:
+        linear-gradient(rgba(78, 49, 45, 0.65), rgba(78, 49, 45, 0.65)),
+        url("images/image 1.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    min-height: 100px;
+    color: #FEFBEA;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1,
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
