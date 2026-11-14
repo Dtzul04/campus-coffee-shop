@@ -24,8 +24,7 @@ Landing page for The Workday Coffee, a campus coffee shop, built as a team proje
 
 **Menu Sections**
 - Coffee
-- Teas and non-caffeinated drinks
-- Refreshers
+- Teas and Refreshers
 - Food
 
 **Promotions**
@@ -59,3 +58,8 @@ Clone the repo and open `index.html` in a browser.
 - One branch per section, named `feature/...`.
 - Every change goes through a Pull Request, and a teammate reviews it before merging.
 - Pull before you start working.
+
+## Images
+- Breakfast sandwich: https://unsplash.com/photos/burger-with-patty-and-cheese-svBRA7cPj2Y
+- Refresher: https://unsplash.com/photos/a-close-up-of-a-drink-on-a-table-vtLpsUvJ-14
+- Iced Coffee: https://unsplash.com/photos/liquid-in-clear-plastic-cup-mMI5sdLFoHM
