@@ -1,3 +1,16 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+/* Muku's design goes here */
 /* NAVBAR */
 body {
     font-family: 'Merriweather', serif;
@@ -154,4 +167,80 @@ body {
         flex-direction: column;
         align-items: center;
     }
+}
+/* Adriana's design goes here. */
+/* styling for menu section */
+  .menu {
+    background-color: #4E312D;
+     color: #FEFBEA;
+     padding: 10px;
+
+  }
+  .menu-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+  
+  }
+
+ .menu-items {
+  list-style-type: none;
+  font-family: Lato, sans-serif;
+ }
+
+
+ .menu-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+  aspect-ratio: 4/5;
+  border-radius: 8px;
+  padding: 5px;
+ }
+
+ h2 {
+  text-align: center;
+ }
+
+ summary {
+  font-family: Merriweather, sans-serif;
+  list-style: none;
+ }
+summary:hover {
+  color: #995900;
+}
+
+.menu-items p {
+  font-size: 0.8rem;
+  padding: 0.3rem;
+  font-family: Lato, sans-serif
+}
+
+.menu-items li {
+  padding: 0.4rem;
+}
+span {
+  font-family: Playfair Display, sans-serif;
+}
+
+/* styling for mobile version */
+@media (max-width: 600px) {
+  .menu-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .menu-img {
+    width: 100%;
+    max-width: 200px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .menu-items p {
+    font-size: 0.8rem;
+  }
 }
