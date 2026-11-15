@@ -61,4 +61,6 @@ Clone the repo and open `index.html` in a browser.
 - Pull before you start working.
 
 ## Images
-- All menu images are from Unsplash.com
+- Iced Coffee: https://unsplash.com/photos/liquid-in-clear-plastic-cup-mMI5sdLFoHM
+- Strawberry Refresher: https://unsplash.com/photos/a-close-up-of-a-drink-on-a-table-vtLpsUvJ-14
+- Breakfast Sandwich: https://unsplash.com/photos/burger-with-patty-and-cheese-svBRA7cPj2Y
