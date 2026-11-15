@@ -59,3 +59,6 @@ Clone the repo and open `index.html` in a browser.
 - One branch per section, named `feature/...`.
 - Every change goes through a Pull Request, and a teammate reviews it before merging.
 - Pull before you start working.
+
+## Images
+- All menu images are from Unsplash.com
