@@ -16,74 +16,134 @@
   font-family: Merriweather, serif;
   color: #4E312D;
   background-color: #FEFBEA;
-  padding: 3rem 0;
+  padding: 4rem 0;
   border-top: 1px solid #995900;
   text-align: center;
 }
 
 .rewards h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.75rem;
+  color: #4E312D;
 }
 
 .rewards-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.5rem;
+  gap: 2.5rem;
   text-align: left;
+}
+
+.rewards-img {
+  width: 45%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.rewards-text {
+  flex: 1;
+}
+
+.rewards-lead {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #995900;
+}
+
+.rewards-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-family: Lato, sans-serif;
+}
+
+.rewards-perks {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+
+.rewards-perks li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(153, 89, 0, 0.25);
+}
+
+.rewards-perks li:last-child {
+  border-bottom: none;
 }
 
 .rewards-btn {
   display: inline-block;
-  padding: 0.6rem 1.4rem;
-  background-color: #995900;
-  color: #FEFBEA;
-  text-decoration: none;
-  border: none;
-  font-family: Merriweather, serif;
-}
-
-.rewards-btn:hover {
-  background-color: #4E312D;
 }
 
 /* CONTACT */
 .contact {
   font-family: Merriweather, serif;
   color: #4E312D;
-  background-color: #FEFBEA;
-  padding: 3rem 0;
+  background-color: #4E312D;
+  padding: 4rem 0;
   border-top: 1px solid #995900;
   text-align: center;
 }
 
 .contact h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
   font-size: 1.75rem;
+  color: #FEFBEA;
+}
+
+.contact-intro {
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  color: #FEFBEA;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
 }
 
 .contact-items {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.25rem;
   text-align: center;
+}
+
+.contact-item {
+  flex: 1;
+  background-color: #FEFBEA;
+  padding: 1.25rem 0.9rem;
+  border-radius: 8px;
 }
 
 .contact-item h3 {
   font-size: 1rem;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   color: #995900;
 }
 
 .contact-item p {
   font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  color: #4E312D;
+}
+
+.contact-item a {
+  color: #4E312D;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  color: #995900;
 }
 
 .footer {
   font-family: Merriweather, serif;
-  color: #4E312D;
-  background-color: #FEFBEA;
+  color: #FEFBEA;
+  background-color: #4E312D;
   border-top: 1px solid #995900;
   padding: 1.5rem 0;
   text-align: center;
@@ -96,9 +156,19 @@
     text-align: center;
   }
 
+  .rewards-img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .rewards-perks {
+    text-align: left;
+    display: inline-block;
+  }
+
   .contact-items {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
   }
 }
 /* Muku's design goes here */
