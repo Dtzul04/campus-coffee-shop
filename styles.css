@@ -222,6 +222,32 @@ body {
     color: #995900;
 }
 
+/* HAMBURGER NAVIGATION */
+/* Hide checkbox but keep it accessible */
+.menu-toggle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+/* Hide hamburger on desktop */
+.hamburger {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Three hamburger lines */
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #4E312D;
+    border-radius: 3px;
+}
+
 /* HERO */
 .hero {
     background: #4E312D;
@@ -259,7 +285,6 @@ body {
 .btn {
     padding: 12px 25px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -303,17 +328,60 @@ body {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
-    .navbar-content {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .navbar ul {
+    .navbar-content {
+        display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         gap: 15px;
     }
 
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Show hamburger on mobile */
+    .hamburger {
+        display: flex;
+    }
+
+    /* Hide navigation links initially */
+    .navbar nav {
+        display: none;
+        width: 100%;
+    }
+
+    /* Show navigation when hamburger is checked */
+    .menu-toggle:checked ~ nav {
+        display: block;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 15px 0;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar ul li a {
+        display: block;
+        padding: 12px;
+    }
+
+    .navbar ul li a:hover {
+        background-color: #EDE5D0;
+        color: #995900;
+    }
+
+    /* Hero responsiveness */
     .hero-content {
         flex-direction: column;
         text-align: center;
@@ -329,6 +397,7 @@ body {
         align-items: center;
     }
 }
+
 /* Adriana's design goes here. */
 /* styling for menu section */
   .menu {
