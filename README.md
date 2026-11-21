@@ -24,8 +24,7 @@ Landing page for The Workday Coffee, a campus coffee shop, built as a team proje
 
 **Menu Sections**
 - Coffee
-- Teas and non-caffeinated drinks
-- Refreshers
+- Teas and Refreshers
 - Food
 
 **Promotions**
