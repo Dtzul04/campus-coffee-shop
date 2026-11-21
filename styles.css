@@ -26,10 +26,13 @@
   
   }
 
+
  .menu-items {
   list-style-type: none;
   font-family: Lato, sans-serif;
- }
+  min-height: 300px; /*fixed height*/
+}
+
 
 
  .menu-img {
@@ -45,13 +48,10 @@
 
  h2 {
   text-align: center;
+  margin: 10px;
  }
 
- summary {
-  font-family: Merriweather, sans-serif;
-  list-style: none;
- }
-summary:hover {
+h4:hover {
   color: #995900;
 }
 
@@ -66,6 +66,10 @@ summary:hover {
 }
 span {
   font-family: Playfair Display, sans-serif;
+}
+
+h4 {
+  font-size: 1.25rem;
 }
 
 /* styling for mobile version */
