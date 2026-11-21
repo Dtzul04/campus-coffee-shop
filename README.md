@@ -60,6 +60,6 @@ Clone the repo and open `index.html` in a browser.
 - Pull before you start working.
 
 ## Images
-- Breakfast sandwich: https://unsplash.com/photos/burger-with-patty-and-cheese-svBRA7cPj2Y
-- Refresher: https://unsplash.com/photos/a-close-up-of-a-drink-on-a-table-vtLpsUvJ-14
 - Iced Coffee: https://unsplash.com/photos/liquid-in-clear-plastic-cup-mMI5sdLFoHM
+- Strawberry Refresher: https://unsplash.com/photos/a-close-up-of-a-drink-on-a-table-vtLpsUvJ-14
+- Breakfast Sandwich: https://unsplash.com/photos/burger-with-patty-and-cheese-svBRA7cPj2Y
